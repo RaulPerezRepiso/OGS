@@ -2,7 +2,10 @@ package tema03
 
 fun main(args: Array<String>) {
     val numero1: Int = 5
-    var numero2: Int = 7
+    var numero2 = 7
+    var flotante = 12.4f
+    var double = 12.45
+    var largo = 12L
     var numero3 = 8
     var numero4 = 677
 
