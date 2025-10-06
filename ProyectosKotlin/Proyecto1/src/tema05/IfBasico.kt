@@ -18,12 +18,13 @@ fun main(){
     }
 
     resultado = if (numero1 >= numero2){
-        "Primero mayor"
+        println("Introduzca Texto")
+        readLine().toString()
     }else{
         "Segundo mayor"
     }
     println(resultado)
 
-    println(if (numero1 >= numero) "Primero mayor" else "Segundo mayor")
+    println(if (numero1 >= numero2) "Primero mayor" else "Segundo mayor")
     println("El resultado de la comparación es: ${if (numero1 >= numero2) "Primero mayor" else "Segundo mayor"}")
 }
