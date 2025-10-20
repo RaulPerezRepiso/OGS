@@ -4,7 +4,11 @@ package tema18
 // Suponemos que la mayoría de nuestros artículos tienen el IVA a 21
 fun iva(base: Float, iva: Float=21f)= base*(iva/100.0f +1f)
 
+// Sumar parametros
 fun sumar(primero: Int, n1: Int =1, n2: Int =2, n3: Int =3, n4: Int =4, n5: Int =5):Int = primero + n1 + n2 + n3 + n4 + n5
+
+// Función única para el area del cuadrado y rectangulo
+fun area(l1: Int, l2: Int=l1): Int = l1*l2
 
 fun main(args: Array<String>) {
     println("Introduzca base: ")
@@ -25,4 +29,10 @@ fun main(args: Array<String>) {
     //Prueba de sumar dos parámetros
     println("Sumar dos parámetros primero = 8 y n1 = 4 es: ${sumar(8, 4)}")
     println("Sumar dos parámetros primero = 8 y n4 = 14 es: ${sumar(8,n4 = 14)}")
+
+    //Calcula area de cuadrdo/rectangulo
+    println("Area cuadrado 5 ${area(5)}")
+    println("Area rectangulo 5, 8 ${area(5, 8)}")
+
+
 }
