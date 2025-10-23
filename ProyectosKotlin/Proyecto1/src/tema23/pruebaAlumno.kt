@@ -20,14 +20,17 @@ fun main(args: Array<String>) {
     alumno03  = Alumno03("Jacinto", edad = 24)
     println("Nombre: ${alumno03.nombre}, \nCurso: ${alumno03.curso}, \nEdad: ${alumno03.edad}")
 
-    var alumno04 = Alumno04("Adrian", "1SMR", 16)
-    println("Alumno 4 con parámetros: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
+//    var alumno04 = Alumno04("Adrian", "1SMR", 16)
+//    println("Alumno 4 con parámetros: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
+//
+//    alumno04 = Alumno04()
+//    println("Alumno 4 sin parámetros: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
+//
+//    alumno04 = Alumno04("Jesusito")
+//    println("Alumno 4 con 1 parámetro: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
 
-    alumno04 = Alumno04()
-    println("Alumno 4 sin parámetros: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
-
-    alumno04 = Alumno04("Jesusito")
-    println("Alumno 4 con 1 parámetro: ${alumno04.nombre}, \nCurso: ${alumno04.curso}, \nEdad: ${alumno04.edad}")
+    val Alumno05 : Alumno05 = Alumno05()
+    println("Alumno 5 con parámetros: ${Alumno05.nombre}, \nCurso: ${Alumno05.curso}, \nEdad: ${Alumno05.edad}, \nNumero: ${Alumno05.numero} ")
 
 
 }
