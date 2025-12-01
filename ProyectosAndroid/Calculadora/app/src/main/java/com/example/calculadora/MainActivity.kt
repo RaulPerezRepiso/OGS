@@ -2,6 +2,7 @@ package com.example.calculadora
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +15,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var etOperando2 : EditText
     lateinit var etResultado : EditText
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
@@ -26,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         etOperando1 = findViewById<EditText>(R.id.etOperando1)
         etOperando2 = findViewById<EditText>(R.id.etOperando2)
-        etResultado = findViewById<EditText>(R.id.etResultado)
+        etResultado =findViewById<EditText>(R.id.etResultado)
 
         // objeto ClickListener con funión Lambda
         findViewById<Button>(R.id.bSumar).setOnClickListener { it : View ->
@@ -57,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 etResultado.setText( resultado.toString())
             }
         }
-        findViewById<Button>(R.id.bDividir).setOnClickListener {objeto}
+        findViewById<Button>(R.id.bDividir).setOnClickListener (objeto)
     }
 
     fun operar (obj : View) {

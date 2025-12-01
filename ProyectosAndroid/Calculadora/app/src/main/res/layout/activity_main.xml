@@ -67,48 +67,44 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:ems="10"
-        android:focusable="false"
-        android:inputType="number"
+        android:enabled="false"
+        android:inputType="numberDecimal"
+        android:text="0"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/textView3"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:text="0" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/bSumar"
-        android:layout_width="91dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="316dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="392dp"
         android:text="Sumar"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="131dp" />
-
-    <Button
-        android:id="@+id/bDividir"
-        android:layout_width="99dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="88dp"
-        android:onClick="dividir"
-        android:text="Dividir"
-        app:layout_constraintTop_toTopOf="@+id/bRestar"
-        tools:layout_editor_absoluteX="142dp" />
-
-    <Button
-        android:id="@+id/bMultiplicar"
-        android:layout_width="124dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="80dp"
-        android:onClick="multiplicar"
-        android:text="Multiplicar"
-        app:layout_constraintTop_toTopOf="@+id/bDividir"
-        tools:layout_editor_absoluteX="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bRestar"
-        android:layout_width="96dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="76dp"
-        android:text="Restar"
-        app:layout_constraintTop_toTopOf="@+id/bSumar"
-        tools:layout_editor_absoluteX="142dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restar."
+        app:layout_constraintStart_toEndOf="@+id/bSumar"
+        app:layout_constraintTop_toTopOf="@+id/bSumar" />
+
+    <Button
+        android:id="@+id/bMultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar."
+        app:layout_constraintStart_toEndOf="@+id/bRestar"
+        app:layout_constraintTop_toTopOf="@+id/bRestar" />
+
+    <Button
+        android:id="@+id/bDividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dividir."
+        app:layout_constraintStart_toEndOf="@+id/bMultiplicar"
+        app:layout_constraintTop_toTopOf="@+id/bMultiplicar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
