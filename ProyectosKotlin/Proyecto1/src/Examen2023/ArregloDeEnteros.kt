@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
     val numeros = IntArray(10) { Random.nextInt(0, 100) }
     println("Array generado: ${numeros.joinToString()}")
 
+
     var multiplosDe2 = 0
     procesarArray(numeros) { n ->
         if (n % 2 == 0) multiplosDe2++

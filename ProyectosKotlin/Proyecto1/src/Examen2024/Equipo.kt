@@ -26,5 +26,6 @@ data class Equipo (var nombre:String, var par_local:Int = 0,
             this.goles_mar += resultado.goles_marcados
             this.goles_enc += resultado.goles_encajados
         }
+
     }
 }
