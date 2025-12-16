@@ -69,11 +69,11 @@ fun main(args: Array<String>) {
 
     anotarGoles(eAntequera)
 
-    eAntequera.anotarGoles( 3,-2,2,0,1,-2,3,-3)
+    // eAntequera.anotarGoles( 3,-2,2,0,1,-2,3,-3)
 
     println("Equido; $eAntequera")
 
-    eAntequera.anotarGoles()
+//    eAntequera.anotarGoles()
 
     println("Equido; $eAntequera")
 }
