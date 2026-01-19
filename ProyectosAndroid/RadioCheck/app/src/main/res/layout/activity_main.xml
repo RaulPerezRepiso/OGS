@@ -11,8 +11,8 @@
         android:id="@+id/cbBecario"
         android:layout_width="136dp"
         android:layout_height="49dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="144dp"
         android:checked="true"
         android:text="Becario"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,17 +22,17 @@
         android:id="@+id/cbRepetidor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="96dp"
         android:text="Repetidor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
-        android:layout_width="186dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="109dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView">
 
@@ -61,7 +61,8 @@
     <RadioGroup
         android:layout_width="156dp"
         android:layout_height="160dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@+id/textView2">
 
@@ -88,8 +89,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="208dp"
         android:text="Sexo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -98,8 +99,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="456dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="388dp"
         android:text="Color del Pelo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -108,8 +109,8 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:text="Nombre:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -129,8 +130,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="32dp"
         android:onClick="guardar"
         android:text="Guardar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -145,5 +146,14 @@
         android:text="Cargar"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <Spinner
+        android:id="@+id/sCurso"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
