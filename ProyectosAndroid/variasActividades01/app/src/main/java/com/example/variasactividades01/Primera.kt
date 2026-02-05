@@ -10,7 +10,6 @@ import androidx.core.view.WindowInsetsCompat
 
 class Primera : AppCompatActivity() {
     lateinit var etValor : EditText
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -22,16 +21,13 @@ class Primera : AppCompatActivity() {
         }
 
         etValor = findViewById<EditText>(R.id.etValor)
-
-        //Vamos a leer el valor que se le pasa
+        // vamos a leer el valor que se le pasa
         val b : Bundle? = intent.extras
-        val cadena : String = b!!.getString("titulo","error titulo")
+        val cadena : String = b!!.getString("valor","error el valor")
 
-        etValor.setText(cadena);
-
+        etValor.setText(cadena)
     }
-    fun salir (obj: View?){
+    fun salir (obj : View?) {
         finish()
     }
-
 }
