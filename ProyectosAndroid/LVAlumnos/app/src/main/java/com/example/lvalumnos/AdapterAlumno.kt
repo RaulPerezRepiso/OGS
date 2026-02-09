@@ -1,5 +1,6 @@
 package com.example.lvalumnos
 
+
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -23,8 +24,6 @@ class AdapterAlumno (context: Context, alumnos: List<Alumno>): BaseAdapter() {
     override fun getItemId(position: Int): Long {
         return 0
     }
-
-
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?):
             View? {

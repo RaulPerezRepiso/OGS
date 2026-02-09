@@ -5,20 +5,25 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MostrarNotas">
 
-    <ListView
-        android:id="@+id/lvAlumnos"
-        android:layout_width="375dp"
-        android:layout_height="333dp"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="564dp"
+        android:onClick="salir"
+        android:text="Salir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/lvAlumnos2"
-        android:layout_width="409dp"
-        android:layout_height="396dp"
-        android:layout_marginTop="412dp"
+        android:id="@+id/lvNotas"
+        android:layout_width="293dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

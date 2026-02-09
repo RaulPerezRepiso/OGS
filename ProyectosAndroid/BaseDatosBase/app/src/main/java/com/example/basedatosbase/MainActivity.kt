@@ -43,8 +43,10 @@ class MainActivity : AppCompatActivity() {
 
         // los resulSet en Android se llaman cursores
         // cursor con select
-        cursor = db.rawQuery("select _id, nombre, direccion from alumnos",
-                             null)
+        // alumnos con _id menor que 8
+        cursor = db.rawQuery("select _id, nombre, direccion from alumnos where _id < ?"
+            , arrayOf("8"))
+
 
 
         if (cursor.isFirst)
@@ -100,7 +102,8 @@ class MainActivity : AppCompatActivity() {
 
     fun borrar (obj : View?) {
         var codigo : Int = et_id.text.toString().toInt()
-        var registrosBorrados = db.delete("alumnos", "_id = ?", arrayOf(codigo.toString()))
+        var registrosBorrados = db.delete("alumnos", "_id = ?",
+            arrayOf(codigo.toString()))
         Toast.makeText(this, "Se han borrado $registrosBorrados", Toast.LENGTH_LONG).show()
 
         cursor.requery()
@@ -122,7 +125,12 @@ class MainActivity : AppCompatActivity() {
         registro.put("direccion", direccion)
 
         // modificación con update tabla , registro, whereClause
-        db.update("alumnos", registro, "_id = ?", arrayOf(id.toString()) )
+       /* db.update("alumnos", registro, "_id = ?",
+            arrayOf(id.toString()) )
+        */
+        // modificación clasica
+        db.execSQL("update alumnos set nombre = ?, direccion = ? where _id = ?",
+                   arrayOf(nombre, direccion, id.toString()))
 
         cursor.requery()
         cursor.move(posicion)
@@ -174,5 +182,22 @@ class MainActivity : AppCompatActivity() {
             etDireccion.setText("------------")
         }
         cursor2.close()
+    }
+
+    fun busquedaN (obj : View?) {
+        var nombre : String = etNombre.text.toString()
+        cursor.moveToFirst()
+        etNombre.setText( "--------")
+        etDireccion.setText("--------")
+
+        do {
+            if (cursor.getString(1) == nombre)
+            {
+                cargar()
+                break
+            }
+        }
+        while (cursor.moveToNext())
+
     }
 }

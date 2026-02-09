@@ -1,12 +1,17 @@
-package com.example.lvalumnos
-
+package com.example.lvvariasactividades
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import android.database.sqlite.SQLiteDatabase.CursorFactory
 import android.database.sqlite.SQLiteOpenHelper
+import android.graphics.Color
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.BaseAdapter
+import android.widget.TextView
+import kotlin.collections.count
 
-class Adb(context: Context?, name: String?, factory: CursorFactory?, version: Int) :
+class Adb(context: Context?, name: String?, factory: SQLiteDatabase.CursorFactory?, version: Int) :
     SQLiteOpenHelper(context, name, factory, version) {
 
     override fun onCreate(db: SQLiteDatabase) {
@@ -25,6 +30,14 @@ class Adb(context: Context?, name: String?, factory: CursorFactory?, version: In
         db.execSQL("insert into alumnos values ('10', 'alumno10', 'calle10');")
         db.execSQL("insert into alumnos values ('11', 'alumno11', 'calle11');")
         db.execSQL("insert into alumnos values ('12', 'alumno12', 'calle12');")
+
+        db.execSQL("create table notas (_id int primary key, " +
+                "id_alumno int, descripcion  text, nota int)")
+        db.execSQL("insert into notas values ('1' ,'2', 'nota clase', '3');");
+        db.execSQL("insert into notas values ('2' ,'3', 'nota clase', '6');");
+        db.execSQL("insert into notas values ('3' ,'4', 'nota clase', '6');");
+        db.execSQL("insert into notas values ('4' ,'5', 'nota clase', '7');");
+
 
 
     }
