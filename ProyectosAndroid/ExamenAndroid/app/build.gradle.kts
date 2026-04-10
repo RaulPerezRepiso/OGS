@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.repaso"
+    namespace = "com.example.examenandroid"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.repaso"
+        applicationId = "com.example.examenandroid"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,7 +43,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.core.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
