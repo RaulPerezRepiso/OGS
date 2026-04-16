@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         lvCursos.adapter = CursoAdapter(this, listaCursos)
     }
 
-    private fun configurarListVigit add .ew() {
+    private fun configurarListView() {
         lvCursos.setOnItemClickListener { _, _, position, _ ->
             val curso = listaCursos[position]
 
