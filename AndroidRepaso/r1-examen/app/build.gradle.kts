@@ -1,17 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = "com.example.examenandroid"
+    namespace = "com.example.r1_examen"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.examenandroid"
+        applicationId = "com.example.r1_examen"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -32,9 +31,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
     }
     buildFeatures {
         compose = true

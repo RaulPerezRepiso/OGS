@@ -1,3 +1,4 @@
+
 package com.example.examenandroid
 
 import android.content.Context
@@ -7,31 +8,22 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 
-class CursoAdapter(val context: Context, val lista: List<Curso>): BaseAdapter() {
+class CursoAdapter(private val ctx: Context, private val lista: ArrayList<Curso>) : BaseAdapter() {
 
-    override fun getCount(): Int {
-        return lista.size
-    }
+    override fun getCount() = lista.size
+    override fun getItem(position: Int) = lista[position]
+    override fun getItemId(position: Int) = lista[position].id_curso.toLong()
 
-    override fun getItem(position: Int): Any {
-        return lista[position]
-    }
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
+        val view = convertView ?: LayoutInflater.from(ctx).inflate(R.layout.item_curso, parent, false)
 
-    override fun getItemId(position: Int): Long {
-        return position.toLong()
-    }
-
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View?
-    {
-
-        val view = convertView ?: LayoutInflater.from(context)
-            .inflate(R.layout.dos, parent, false)
-        val tvNombre = view.findViewById<TextView>(R.id.etNombre)
-        val tvPrecio = view.findViewById<TextView>(R.id.etPrecio)
         val curso = lista[position]
 
-        tvNombre.text = curso.nombre
-        tvPrecio.text = "${curso.precio} €"
+        view.findViewById<TextView>(R.id.tvTitulo).text = "Mi Curso"
+        view.findViewById<TextView>(R.id.tvId).text = "Id:${curso.id_curso}"
+        view.findViewById<TextView>(R.id.tvNombre).text = curso.nombre
+        view.findViewById<TextView>(R.id.tvPrecio).text = curso.precio.toString()
+
         return view
     }
 }

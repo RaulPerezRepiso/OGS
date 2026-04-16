@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f256e2d8-5983-4118-a488-5ad94d146d22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/r1-examen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/androidTest/java/com/example/r1_examen/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/java/com/example/r1_examen/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/app/src/test/java/com/example/r1_examen/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1-examen/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/layout/activity_segunda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/ABD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/ABD.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/CursoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/CursoAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/SegundaActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/java/com/example/examenandroid/SegundaActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/layout/dos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/layout/item_curso.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/ExamenAndroid/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/Repaso/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/Repaso/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/androidTest/java/com/example/r2_examen/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/java/com/example/r2_examen/Adapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/java/com/example/r2_examen/BD.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/java/com/example/r2_examen/DetalleActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/java/com/example/r2_examen/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/java/com/example/r2_examen/Producto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/layout/activity_detalle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/layout/item_producto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/app/src/test/java/com/example/r2_examen/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/r2examen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/r2examen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectosAndroid/r3examen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectosAndroid/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LocalEmulator::path=C:\Users\Perez\.android\avd\Medium_Phone.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="r1-examen" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\Perez\.gradle\wrapper\dists\gradle-9.1.0-bin\9agqghryom9wkf8r80qlhnts3\gradle-9.1.0" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="9.1.0" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3CRncXrPMcIHEDo12nwyvPo7Gg2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="r1-examen.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f256e2d8-5983-4118-a488-5ad94d146d22" name="Changes" comment="" />
+      <created>1776357329573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776357329573</updated>
+    </task>
+    <servers />
+  </component>
+</project>
