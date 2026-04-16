@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- SPINNER -->
+    <Spinner
+        android:id="@+id/spPlataforma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- ID -->
+    <TextView
+        android:text="ID:"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- NOMBRE -->
+    <TextView
+        android:text="Nombre:"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- AÑO -->
+    <TextView
+        android:text="Año:"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtAnio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- PUNTUACIÓN -->
+    <TextView
+        android:text="Puntuación:"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- BOTONES DE NAVEGACIÓN -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPrimero"
+            android:text="Primero"
+            android:onClick="primero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAnterior"
+            android:text="Anterior"
+            android:onClick="anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:text="Siguiente"
+            android:onClick="siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/btnUltimo"
+            android:text="Último"
+            android:onClick="ultimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <!-- BOTONES INSERTAR / BORRAR -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnInsertar"
+            android:text="Insertar"
+            android:onClick="insertar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:text="Borrar"
+            android:onClick="borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
